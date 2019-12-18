@@ -53,23 +53,8 @@ function maxProfit(tree, values = [Infinity, -Infinity]) {
 
 //   console.log(maxProfitW2Loops([128, 97, 121, 123, 98, 97, 105]));
 
-15;
-29;
-42;
-54;
-65;
-75;
-84;
-92;
-99;
-100;
-
-function tri(n) {
-  return n === 1 ? n : n + tri(n - 1);
-}
-
-console.log(tri(14));
-
-// function fibo(n) {
-//   return n === 0 || n === 1 ? n : fibo(n - 1) + fibo(n - 2);
+// function tri(n) {
+//   return n === 0 ? n : n + tri(n - 2);
 // }
+
+// console.log(tri(16));
